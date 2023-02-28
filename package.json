@@ -1,9 +1,13 @@
 {
-  "name": "@vxmanh/device-info-nuxt3",
+  "name": "@vxmanh26/device-info-nuxt",
   "version": "1.0.0",
   "description": "Device info for Nuxtjs 3",
   "license": "MIT",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vxmanh/device-info-nuxt.git"
+  },
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
@@ -23,7 +27,6 @@
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
     "lint": "eslint .",
-    "test": "vitest run",
     "test:watch": "vitest watch"
   },
   "dependencies": {
@@ -42,6 +45,13 @@
   "directories": {
     "test": "test"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "keywords": [],
-  "author": ""
+  "author": "ManhVu",
+  "bugs": {
+    "url": "https://github.com/vxmanh/device-info-nuxt/issues"
+  },
+  "homepage": "https://github.com/vxmanh/device-info-nuxt#readme"
 }
