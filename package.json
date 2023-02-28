@@ -25,12 +25,12 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
-    "lint": "eslint .",
+    "release": "git push --follow-tags && npm publish",
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.2.2"
+    "@nuxt/kit": "^3.2.2",
+    "defu": "^6.1.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
