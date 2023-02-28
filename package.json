@@ -46,7 +46,7 @@
     "test": "test"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "@vxmanh26:registry":"https://npm.pkg.github.com/"
   },
   "keywords": [],
   "author": "ManhVu",
