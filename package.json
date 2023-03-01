@@ -1,5 +1,5 @@
 {
-  "name": "@vxmanh26/device-info-nuxt",
+  "name": "device-info-nuxt3",
   "version": "1.0.0",
   "description": "Device info for Nuxtjs 3",
   "license": "MIT",
@@ -46,7 +46,7 @@
     "test": "test"
   },
   "publishConfig": {
-    "@vxmanh26:registry":"https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [],
   "author": "ManhVu",
